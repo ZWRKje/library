@@ -1,0 +1,30 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "## Description SPA book library application, allowing you to add to your favorites and display information about your favourite works.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZWRKje/library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZWRKje/library/issues"
+  },
+  "homepage": "https://github.com/ZWRKje/library#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.56.0",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-import-css": "^3.1.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
