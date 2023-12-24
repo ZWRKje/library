@@ -12,7 +12,6 @@ export class Search extends DivComponent {
   }
 
   render() {
-    console.log(this.state.searchQuery ? this.state.searchQuery : '');
     this.el.classList.add('search');
     this.el.innerHTML = `
       <div class="search__wrapper">
